@@ -1,3 +1,12 @@
+Caso tenham alguma dúvida a mais sobre o github pode me mandar mensagem que eu respondo.
+
+-Sempre que fizerem uma alteração no código, expliquem ela na mensagem do commit
+-Se for adicionar algo muito relevante para o código(como a tela de login ou a seção de pagamentos) criem uma branch nova aqui no github com o nome do que estão fazendo.
+-Sempre nomeie as branches e commits com nomes simples para ajudar na hora de digitar os códigos no terminal.
+-Se quiserem adicionar uma ideia que alteraria muito do código original, criem um pull-request para todos votarem e descobrirem se vale ou não a pena adicionar isso. 
+
+
+Abaixo estão as ideias para o projeto que o matheus escreveu:
 1º-Sistema de verificação: onde será confirmado a compra dos produtos e quantos produtos foram pedidos 
 
 2º-Sistema de Salvamento: pra quando o tablet travar ou alguém sem querer sair do aplicativo enquanto faz o pedido, assim quando ele voltar pro aplicativo, estará salvo o pedido que ele deixou.
