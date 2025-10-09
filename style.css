@@ -1,0 +1,115 @@
+*{
+    margin:0;
+    padding:0;
+  }
+  
+  body{
+    background-color:rgb(244, 198, 169);
+    color:black;
+  }
+  /*cabeçalho*/
+  header{
+    background-color:rgb(238, 172, 150);
+    color:black;  
+    padding:20px 0;
+    text-align:center; 
+  }
+  
+  nav{
+    background-color:rgb(239, 163, 138);
+    padding:10px;
+    font-family:arial;
+  }
+  
+  nav ul{
+    display:flex;
+    justify-content:center;
+    list-style:none;
+  }
+  
+  nav ul li{
+    margin:0 15px;
+    color:rgb(0, 0, 0);
+    text-decoration:none;
+  }
+  
+  nav ul li:hover{
+    cursor:pointer;
+    background-color:deepskyblue;
+    color:rgb(0, 0, 0);
+  }
+  
+  /*conteudo*/
+  .container-pai{
+    color:lightskyblue;
+    border-color: black;
+  }
+  /*Disposição dos elementos*/
+  .container-filho{
+    margin-left: 2%;
+    margin-right: 2%; /* Adiciona um espaço entre os contêineres */
+    margin-top: 2%;
+    float:left; /* Flutua o elemento para a esquerda */
+    width: 25%; /* Largura suficiente para 3 colunas com margens */
+    height:25%;
+    padding: 20px;
+    display:flex;
+    border-color: black;
+    border-radius: 2px;
+    gap:20px;
+  }
+  
+  .container-filho{
+    background-color:cornsilk;
+    border-radius:5px;
+    box-shadow:0 1px 10px #ffa200;
+    transition: transform 0.3s;
+  }
+  
+  .container-filho:hover{
+    transform: translateY(-5px);
+      box-shadow: 15px 15px 15px #2980b9;
+  }
+  
+  .produto-info{
+    padding:15px;
+    color: black;
+  }
+  
+  .produto-info p{
+    color:black;
+    margin: bottom 20px;
+  }
+  
+  .preco{
+    font-weight:bold;
+    color:black;
+    font-size:1.3rem;
+  }
+  
+  .btn-comprar{
+    display:inline-block;
+    background-color:black;
+    color:white;
+    padding:8px 15px;
+    border-radius:4px;
+    text-decoration:none;
+    margin-top:10px;
+    transition: 0.3s;
+  }
+  
+  .btn-comprar:hover{
+    background-color:#2980b9;
+  }
+  
+  /*rodape*/
+    footer {
+      position: fixed; /* Fixa o elemento na tela */
+      bottom: 0; /* Alinha na parte inferior */
+      left: 0;
+      width: 100%;
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 5px;
+    }
