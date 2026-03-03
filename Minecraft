@@ -1,0 +1,2 @@
+var pia= "Detergente"
+console.log(typeof pia)
